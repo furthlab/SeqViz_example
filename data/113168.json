@@ -1,0 +1,261 @@
+{
+  "selection": {
+    "start": 2514,
+    "end": 2811,
+    "clockwise": true
+  },
+  "annotations": [
+    {
+      "direction": 1,
+      "end": 606,
+      "name": "ori",
+      "start": 18,
+      "type": "rep_origin"
+    },
+    {
+      "direction": 0,
+      "end": 915,
+      "name": "CAP binding site",
+      "start": 894,
+      "type": "protein_bind"
+    },
+    {
+      "direction": 1,
+      "end": 935,
+      "name": "lac promoter",
+      "start": 930,
+      "type": "promoter"
+    },
+    {
+      "direction": 0,
+      "end": 984,
+      "name": "lac operator",
+      "start": 968,
+      "type": "protein_bind"
+    },
+    {
+      "direction": 1,
+      "end": 1008,
+      "name": "M13 rev",
+      "start": 992,
+      "type": "primer_bind"
+    },
+    {
+      "direction": 1,
+      "end": 1047,
+      "name": "T3 promoter",
+      "start": 1029,
+      "type": "promoter"
+    },
+    {
+      "direction": 0,
+      "end": 1551,
+      "name": "CMV enhancer",
+      "start": 1172,
+      "type": "enhancer"
+    },
+    {
+      "direction": 1,
+      "end": 1755,
+      "name": "CMV promoter",
+      "start": 1552,
+      "type": "promoter"
+    },
+    {
+      "direction": 0,
+      "end": 2439,
+      "name": "β-globin intron",
+      "start": 1867,
+      "type": "intron"
+    },
+    {
+      "direction": 1,
+      "end": 2537,
+      "name": "FLAG",
+      "start": 2514,
+      "type": "CDS"
+    },
+    {
+      "direction": 0,
+      "end": 2597,
+      "name": "Basic region",
+      "start": 2544,
+      "type": "misc_feature",
+      "color": "darkred"
+    },
+    {
+      "direction": 1,
+      "end": 2811,
+      "name": "Omomyc",
+      "start": 2544,
+      "type": "CDS",
+      "color": "#fbc997"
+    },
+    {
+      "direction": 0,
+      "end": 2636,
+      "name": "H Helix1",
+      "start": 2598,
+      "type": "misc_feature",
+      "color": "darkred"
+    },
+    {
+      "direction": 0,
+      "end": 2672,
+      "name": "L Loop",
+      "start": 2637,
+      "type": "misc_feature",
+      "color": "darkred"
+    },
+    {
+      "direction": 0,
+      "end": 2708,
+      "name": "H Helix2",
+      "start": 2673,
+      "type": "misc_feature",
+      "color": "darkred"
+    },
+    {
+      "direction": 0,
+      "end": 2811,
+      "name": "LZ Leucine zipper",
+      "start": 2709,
+      "type": "misc_feature",
+      "color": "darkred"
+    },
+    {
+      "direction": 0,
+      "end": 2723,
+      "name": "1. E->T Omomyc mutation",
+      "start": 2721,
+      "type": "misc_feature",
+      "color": "green"
+    },
+    {
+      "direction": 0,
+      "end": 2744,
+      "name": "2. E->I Omomyc mutation",
+      "start": 2742,
+      "type": "misc_feature",
+      "color": "green"
+    },
+    {
+      "direction": 0,
+      "end": 2762,
+      "name": "3. R->Q Omomyc mutation",
+      "start": 2760,
+      "type": "misc_feature",
+      "color": "green"
+    },
+    {
+      "direction": 0,
+      "end": 2765,
+      "name": "4. R->N Omomyc mutation",
+      "start": 2763,
+      "type": "misc_feature",
+      "color": "green"
+    },
+    {
+      "direction": 0,
+      "end": 2792,
+      "name": "Q->* Click labeling site",
+      "start": 2790,
+      "type": "misc_feature",
+      "color": "cyan"
+    },
+    {
+      "direction": 1,
+      "end": 2726,
+      "name": "Primer Fwd ΔbHLH",
+      "start": 2710,
+      "type": "primer_bind",
+      "color": "gray"
+    },      
+    {
+      "direction": -1,
+      "end": 2544,
+      "name": "Primer Rev ΔbHLH",
+      "start": 2529,
+      "type": "primer_bind",
+      "color": "gray"
+    },
+    {
+      "direction": -1,
+      "end": 2792,
+      "name": "Rev SMD",
+      "start": 2769,
+      "type": "primer_bind",
+      "color": "gray"
+    },      
+    {
+      "direction": 1,
+      "end": 2813,
+      "name": "Fwd SMD",
+      "start": 2793,
+      "type": "primer_bind",
+      "color": "gray"
+    },         
+    {
+      "direction": -1,
+      "end": 2838,
+      "name": "KS primer",
+      "start": 2822,
+      "type": "primer_bind"
+    },
+    {
+      "direction": -1,
+      "end": 2880,
+      "name": "SP6 promoter",
+      "start": 2862,
+      "type": "promoter"
+    },
+    {
+      "direction": 0,
+      "end": 3130,
+      "name": "bGH poly(A) signal",
+      "start": 2906,
+      "type": "polyA_signal"
+    },
+    {
+      "direction": -1,
+      "end": 3206,
+      "name": "T7 promoter",
+      "start": 3188,
+      "type": "promoter"
+    },
+    {
+      "direction": -1,
+      "end": 3232,
+      "name": "M13 fwd",
+      "start": 3216,
+      "type": "primer_bind"
+    },
+    {
+      "direction": 1,
+      "end": 3829,
+      "name": "f1 ori",
+      "start": 3374,
+      "type": "rep_origin"
+    },
+    {
+      "direction": 1,
+      "end": 3959,
+      "name": "AmpR promoter",
+      "start": 3855,
+      "type": "promoter"
+    },
+    {
+      "direction": 1,
+      "end": 4028,
+      "name": "AmpR",
+      "start": 3960,
+      "type": "CDS"
+    }
+  ],
+  "translations" : [
+    { "start": 2514, "end": 2813, "direction": 1, "name": "ORF 1", "color": "#FAA887" } 
+  ],
+  "name": "pCbs FlagOmomyc",
+  "seq": "aaagatcaaaggatcttcttgagatcctttttttctgcgcgtaatctgctgcttgcaaacaaaaaaaccaccgctaccagcggtggtttgtttgccggatcaagagctaccaactctttttccgaaggtaactggcttcagcagagcgcagataccaaatactgttcttctagtgtagccgtagttaggccaccacttcaagaactctgtagcaccgcctacatacctcgctctgctaatcctgttaccagtggctgctgccagtggcgataagtcgtgtcttaccgggttggactcaagacgatagttaccggataaggcgcagcggtcgggctgaacggggggttcgtgcacacagcccagcttggagcgaacgacctacaccgaactgagatacctacagcgtgagctatgagaaagcgccacgcttcccgaagggagaaaggcggacaggtatccggtaagcggcagggtcggaacaggagagcgcacgagggagcttccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccacctctgacttgagcgtcgatttttgtgatgctcgtcaggggggcggagcctatggaaaaacgccagcaacgcggcctttttacggttcctggccttttgctggccttttgctcacatgttctttcctgcgttatcccctgattctgtggataaccgtattaccgcctttgagtgagctgataccgctcgccgcagccgaacgaccgagcgcagcgagtcagtgagcgaggaagcggaagagcgcccaatacgcaaaccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacaggtttcccgactggaaagcgggcagtgagcgcaacgcaattaatgtgagttagctcactcattaggcaccccaggctttacactttatgcttccggctcgtatgttgtgtggaattgtgagcggataacaatttcacacaggaaacagctatgaccatgattacgccaagcgcgcaattaaccctcactaaagggaacaaaagctggagctccaccgcggtggcggccgctctagagagcttggcccattgcatacgttgtatccatatcataatatgtacatttatattggctcatgtccaacattaccgccatgttgacattgattattgactagttattaatagtaatcaattacggggtcattagttcatagcccatatatggagttccgcgttacataacttacggtaaatggcccgcctggctgaccgcccaacgacccccgcccattgacgtcaataatgacgtatgttcccatagtaacgccaatagggactttccattgacgtcaatgggtggagtatttacggtaaactgcccacttggcagtacatcaagtgtatcatatgccaagtacgccccctattgacgtcaatgacggtaaatggcccgcctggcattatgcccagtacatgaccttatgggactttcctacttggcagtacatctacgtattagtcatcgctattaccatggtgatgcggttttggcagtacatcaatgggcgtggatagcggtttgactcacggggatttccaagtctccaccccattgacgtcaatgggagtttgttttggcaccaaaatcaacgggactttccaaaatgtcgtaacaactccgccccattgacgcaaatgggcggtaggcgtgtacggtgggaggtctatataagcagagctcgtttagtgaaccgtcagatcgcctggagacgccatccacgctgttttgacctccatagaagacaccgggaccgatccagcctccggtcgaccgatcctgagaacttcagggtgagtttggggacccttgattgttctttctttttcgctattgtaaaattcatgttatatggagggggcaaagttttcagggtgttgtttagaatgggaagatgtcccttgtatcaccatggaccctcatgataattttgtttctttcactttctactctgttgacaaccattgtctcctcttattttcttttcattttctgtaactttttcgttaaactttagcttgcatttgtaacgaatttttaaattcacttttgtttatttgtcagattgtaagtactttctctaatcacttttttttcaaggcaatcagggtatattatattgtacttcagcacagttttagagaacaattgttataattaaatgataaggtagaatatttctgcatataaattctggctggcgtggaaatattcttattggtagaaacaactacaccctggtcatcatcctgcctttctctttatggttacaatgatatacactgtttgagatgaggataaaatactctgagtccaaaccgggcccctctgctaaccatgttcatgccttcttctctttcctacagctcctgggcaacgtgctggttgttgtgctgtctcatcattttggcaaagaattcctcgacggatccccaccatggactacaaggacgatgatgacaagcccgggaccgagaatgtcaagaggcgaacacacaacgtcttggagcgccagaggaggaacgagctaaaacggagcttttttgccctgcgtgaccagatcccggagttggaaaacaatgaaaaggcccccaaggtagttatccttaaaaaagccacagcatacatcctgtccgtccaagcagagacgcaaaagctcatttctgaaatcgacttgttgcggaaacaaaacgaacagttgaaacacaaacttgaacagctacggaactcttgtgcgtaaaagcttatcgataccgtcgacctcgagcatgcatctagagggccctattctatagtgtcacctaaatgctagagctcgctgatcagcctcgactgtgccttctagttgccagccatctgttgtttgcccctcccccgtgccttccttgaccctggaaggtgccactcccactgtcctttcctaataaaatgaggaaattgcatcgcattgtctgagtaggtgtcattctattctggggggtggggtggggcaggacagcaagggggaggattgggaagacaatagcaggcatgctggggatgcggtgggctctatggcttctgaggcggaaagaaccagctggggctcgagggggggcccggtacccaattcgccctatagtgagtcgtattacgcgcgctcactggccgtcgttttacaacgtcgtgactgggaaaaccctggcgttacccaacttaatcgccttgcagcacatccccctttcgccagctggcgtaatagcgaagaggcccgcaccgatcgcccttcccaacagttgcgcagcctgaatggcgaatgggacgcgccctgtagcggcgcattaagcgcggcgggtgtggtggttacgcgcagcgtgaccgctacacttgccagcgccctagcgcccgctcctttcgctttcttcccttcctttctcgccacgttcgccggctttccccgtcaagctctaaatcgggggctccctttagggttccgatttagtgctttacggcacctcgaccccaaaaaacttgattagggtgatggttcacgtagtgggccatcgccctgatagacggtttttcgccctttgacgttggagtccacgttctttaatagtggactcttgttccaaactggaacaacactcaaccctatctcggtctattcttttgatttataagggattttgccgatttcggcctattggttaaaaaatgagctgatttaacaaaaatttaacgcgaattttaacaaaatattaacgcttacaatttaggtggcacttttcggggaaatgtgcgcggaacccctatttgtttatttttctaaatacattcaaatatgtatccgctcatgagacaataaccctgataaatgcttcaataatattgaaaaaggaagagtatgagtattcaacatttccgtgtcgcccttattcccttttttgcggcattttgccttcctgtttttgctcacccagaaacgctggtgaaagtaaaagatgctgaagatcagttgggtgcacgagtgggttacatcgaactggatctcaacagcggtaagatccttgagagttttcgccccgaagaacgttttccaatgatgagcacttttaaagttctgctatgtggcgcggtattatcccgtattgacgccgggcaagagcaactcggtcgccgcatacactattctcagaatgacttggttgagtactcaccagtcacagaaaagcatcttacggatggcatgacagtaagagaattatgcagtgctgccataaccatgagtgataacactgcggccaacttacttctgacaacgatcggaggaccgaaggagctaaccgcttttttgcacaacatgggggatcatgtaactcgccttgatcgttgggaaccggagctgaatgaagccataccaaacgacgagcgtgacaccacgatgcctgtagcaatggcaacaacgttgcgcaaactattaactggcgaactacttactctagcttcccggcaacaattaatagactggatggaggcggataaagttgcaggaccacttctgcgctcggcccttccggctggctggtttattgctgataaatctggagccggtgagcgtgggtctcgcggtatcattgcagcactggggccagatggtaagccctcccgtatcgtagttatctacacgacggggagtcaggcaactatggatgaacgaaatagacagatcgctgagataggtgcctcactgattaagcattggtaactgtcagaccaagtttactcatatatactttagattgatttaaaacttcatttttaatttaaaaggatctaggtgaagatcctttttgataatctcatgaccaaaatcccttaacgtgagttttcgttccactgagcgtcagaccccgtaga",
+  "type": "dna"
+}

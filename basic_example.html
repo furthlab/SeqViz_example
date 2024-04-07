@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SeqViz Example</title>
+<script src="https://unpkg.com/seqviz"></script>
+</head>
+<body>
+<div id="root" style="height: 500px; width: 100%;"></div>
+
+<script>
+// Initialize SeqViz viewer
+const element = document.getElementById("root");
+const viewer = window.seqviz.Viewer(element, {
+  name: "Example Sequence",
+  seq: "tcgcgcgtttcggtgatgacggtgaaaacctctgacacatgca",
+  style: { height: "100%", width: "100%" },
+});
+
+// Render the viewer to the DOM
+viewer.render();
+</script>
+</body>
+</html>

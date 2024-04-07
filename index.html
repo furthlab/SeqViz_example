@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fürthlab Plasmid Viewer</title>
+<script src="https://unpkg.com/seqviz"></script>
+</head>
+<body>
+    
+<div id="root" style="height: 800px; width: 100%;"></div>
+
+<script>
+// Function to fetch and parse JSON file
+async function loadJSON(file) {
+    const response = await fetch(file);
+    if (!response.ok) {
+        throw new Error(`Failed to load JSON file ${file}: ${response.status} ${response.statusText}`);
+    }
+    return await response.json();
+}
+
+// Function to adjust annotations
+function adjustAnnotations(annotations) {
+    return annotations.map(annotation => ({
+        ...annotation,
+        end: annotation.end + 1 // Adding 1 to end value because of some bug in seqparse
+    }));
+}
+
+// Function to create SeqViz viewer
+async function createSeqVizViewer() {
+    try {
+        // Extract the hash from the URL
+        const hash = window.location.hash.substring(1);
+        const filetoimport = `./data/${hash}.json`; // Construct the file path using the hash
+        const jsonData = await loadJSON(filetoimport);
+        const { annotations, seq, name, translations } = jsonData;
+        const adjustedAnnotations = adjustAnnotations(annotations);
+        const element = document.getElementById("root");
+        const viewer = window.seqviz.Viewer(element, {
+            name: name,
+            seq: seq,
+            annotations: adjustedAnnotations,
+            translations: translations,
+            style: { height: "100%", width: "100%" }
+        });
+        viewer.render();
+    } catch (error) {
+        console.error('Error creating SeqViz viewer:', error);
+    }
+}
+
+// Call the function to create SeqViz viewer
+createSeqVizViewer();
+</script>
+</body>
+</html>
